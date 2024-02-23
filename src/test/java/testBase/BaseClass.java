@@ -70,7 +70,7 @@ public class BaseClass {
 			driver.manage().window().maximize();
 }
 	
-	//@AfterTest
+	@AfterTest
 	public void tearDown()
 	{
 		driver.quit();
@@ -118,7 +118,7 @@ public class BaseClass {
 		TakesScreenshot ts= (TakesScreenshot) driver;
 		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
 		
-		String targetFilePath= System.getProperty("user.dir")+"\\screenshotsOnFail\\" + tname +"_" + timeStamp + ".png";
+		String targetFilePath= System.getProperty("user.dir")+"\\screenshotsofReport\\" + tname +"_" + timeStamp + ".png";
 		File targetFile= new File(targetFilePath);
 		FileUtils.copyFile(sourceFile, targetFile);
 		//sourceFile.renameTo(targetFile);//copy source file to target file
@@ -138,30 +138,6 @@ public class BaseClass {
 		FileUtils.copyFile(sourceFile, targetFile);	
 	}
 	
-	
-	public static void readJSONFile() {
-		
-		try {
-			
-			parser = new JSONParser();
-			obj = parser.parse(new FileReader("./src/test/resources/GiftCardInput.json"));
-	        jsonObject = (JSONObject)obj;
-	        
-	        amount         = (String)jsonObject.get("Amount");
-	        recipientName  = (String)jsonObject.get("Recipient_Name");
-	        recipientEmail = (String)jsonObject.get("Recipient_Email");
-	        customerName   = (String)jsonObject.get("Customer_Name");
-	        customerEmail  = (String)jsonObject.get("Customer_Email");
-	        customerMobile = (String)jsonObject.get("Customer_Mobile");
-	        message        = (String)jsonObject.get("Message");
-			
-		} catch(Exception e) {
-			
-			e.printStackTrace();
-			
-		}
-	 
-	}
 	
 
 }

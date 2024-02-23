@@ -48,9 +48,9 @@ public class ExtentReportManager implements ITestListener {
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);
 		extent.setSystemInfo("Tester Name", "Rishabh Yadav");
-		extent.setSystemInfo("Application", "BeCognizant");
-		extent.setSystemInfo("Module", "BeCognizant");
-		extent.setSystemInfo("Sub Module", "Featured news");
+		extent.setSystemInfo("Application", "UrbanLadder");
+		extent.setSystemInfo("Module", "Bookshelves");
+		extent.setSystemInfo("Sub Module", "display bookshelve, GiftCards,Living items");
 		extent.setSystemInfo("User Name", System.getProperty("user.name"));
 		extent.setSystemInfo("Environemnt", "QA");
 		extent.setSystemInfo("Operatng System", "Windows");
@@ -72,6 +72,14 @@ public class ExtentReportManager implements ITestListener {
 		test = extent.createTest(result.getTestClass().getName());//from result getclass get name of class
 		test.assignCategory(result.getMethod().getGroups()); // to display groups in report
 		test.log(Status.PASS,result.getName()+" got successfully executed");
+		
+		try {
+			String imgPath = new BaseClass().captureScreen(result.getName());//providing same name as method name to screenshot
+			test.addScreenCaptureFromPath(imgPath);//adding image path to report
+			
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
 		
 	}
 

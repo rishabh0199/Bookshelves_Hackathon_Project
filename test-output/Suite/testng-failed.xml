@@ -7,12 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.DisplayBookshelves">
+      <class name="testCases.TC_005_ConfirmingFormDeatils">
         <methods>
           <include name="driverSetup"/>
-          <include name="collectingBookShelvesList"/>
+          <include name="tearDown"/>
+          <include name="confirmamountEnetered"/>
         </methods>
-      </class> <!-- testCases.DisplayBookshelves -->
+      </class> <!-- testCases.TC_005_ConfirmingFormDeatils -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

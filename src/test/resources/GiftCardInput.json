@@ -3,9 +3,13 @@
 	"Amount":"10000",
 	"Recipient_Name":"Rishabh",
 	"Recipient_Email":"rishabh",
-	"Customer_Name":"LongClaw",
+	"Recipient_Mobile":"9876543210",
+	"Customer_Name":"Satyam",
 	"Customer_Email":"rishabh@gmail.com",
 	"Customer_Mobile":"9876543210",
-	"Message":"Happy Bday"
+	"Customer_Address":"New Delhi",
+	"Customer_PinCode":"110059",
+	"Message":"Happy BirthDay",
+	"Correct_email":"rishabh@gmail.com"
 
 }

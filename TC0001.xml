@@ -11,6 +11,10 @@
 	    
     <classes>
       <class name="testCases.TC_0001_SearchBookshelve"/>
+      <class name="testCases.TC_0002_BookshelvesDetails"/>
+      <class name="testCases.TC_0003_LivingMenuItems"/>
+      <class name="testCases.TC_0004_GiftCards"/>
+      <class name="testCases.TC_005_ConfirmingFormDeatils"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

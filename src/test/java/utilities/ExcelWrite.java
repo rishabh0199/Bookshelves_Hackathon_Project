@@ -24,7 +24,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 * Description    : To Write the output on the excel sheet.                         *
 *                                                                                  *
 ************************************************************************************/
-
+//concept of overloading
 public class ExcelWrite {
 
 	public static FileOutputStream fileOP;
@@ -33,10 +33,10 @@ public class ExcelWrite {
 	public static XSSFCell cell = null;
 	public static XSSFCell cell2 = null;
 	public static XSSFRow row = null;
-	public static String exFilePath1 = ".//excel//BookShelvesBelow15000.xlsx";
-	public static String exFilePath2 = ".//excel//LivingList.xlsx";
+	public static String exFilePath1 = ".//excel//UrbanLadderData.xlsx";
+	//public static String exFilePath2 = ".//excel//LivingList.xlsx";
 	
-	public static void below15000BookShelves(String[] bookShelves , String[] prices , int x) {
+	public static void setDataExcel(String[] bookShelves , String[] prices , int x) {
 
 		workbook = new XSSFWorkbook();
 		sheet = workbook.createSheet("Below_15000");
@@ -82,9 +82,9 @@ public class ExcelWrite {
 
 	}
 	
-	public static void byAtHomeBookshelves(String[] bookShelves , String[] prices , int x) {
+	public static void setDataExcel(String[] items , int x) {
 		
-		workbook = new XSSFWorkbook();
+		//workbook = new XSSFWorkbook();
 		sheet = workbook.createSheet("LivingList");
 
 		for (int i = 1; i <= x; i++) {
@@ -99,20 +99,13 @@ public class ExcelWrite {
 			if (cell == null)
 				cell = row.createCell(0);
 			
-			cell.setCellValue(bookShelves[i-1]);
-			
-			cell2 = row.getCell(1);
-			
-			if (cell2 == null)
-				cell2 = row.createCell(1);
-			
-			cell2.setCellValue(prices[i-1]);
+			cell.setCellValue(items[i-1]);
 			
 		}
 		
 		try {
 
-			fileOP = new FileOutputStream(new File(exFilePath2));
+			fileOP = new FileOutputStream(new File(exFilePath1));
 			workbook.write(fileOP);
 			fileOP.close();
 

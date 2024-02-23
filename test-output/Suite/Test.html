@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>49/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Feb 20 22:52:53 IST 2024</td>
+<td>Started on:</td><td>Fri Feb 23 11:02:21 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>86 seconds (86227 ms)</td>
+<tr><td>Total time:</td><td>160 seconds (160422 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,70 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.DisplayBookshelves.collectingBookShelvesList()'><b>collectingBookShelvesList</b><br>Test class: testCases.DisplayBookshelves</td>
-<td><div><pre>java.lang.ArrayIndexOutOfBoundsException: Index 30 out of bounds for length 30
-	at testCases.DisplayBookshelves.collectingBookShelvesList(DisplayBookshelves.java:95)
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmamountEnetered()'><b>confirmamountEnetered</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td><div><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression &quot;//div[@class=&quot;BCLqs&quot;]//text()[3]&quot; is: [object Text]. It should be an element.
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c2b16f11a5e90d75a05f798c16fc5f3, findElement {using=xpath, value=//div[@class=&quot;BCLqs&quot;]//text()[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59151}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59151/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c2b16f11a5e90d75a05f798c16fc5f3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:264)
+	at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:260)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at testBase.BaseClass.ExplicitlyWait(BaseClass.java:84)
+	at pageObjects.SubmittedFormDetailsPage.amountEnetered(SubmittedFormDetailsPage.java:62)
+	at testCases.TC_005_ConfirmingFormDeatils.confirmamountEnetered(TC_005_ConfirmingFormDeatils.java:36)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1233557566", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1233557566'><pre>java.lang.ArrayIndexOutOfBoundsException: Index 30 out of bounds for length 30
-	at testCases.DisplayBookshelves.collectingBookShelvesList(DisplayBookshelves.java:95)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1387003960", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1387003960'><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression &quot;//div[@class=&quot;BCLqs&quot;]//text()[3]&quot; is: [object Text]. It should be an element.
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c2b16f11a5e90d75a05f798c16fc5f3, findElement {using=xpath, value=//div[@class=&quot;BCLqs&quot;]//text()[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59151}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59151/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c2b16f11a5e90d75a05f798c16fc5f3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:264)
+	at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:260)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at testBase.BaseClass.ExplicitlyWait(BaseClass.java:84)
+	at pageObjects.SubmittedFormDetailsPage.amountEnetered(SubmittedFormDetailsPage.java:62)
+	at testCases.TC_005_ConfirmingFormDeatils.confirmamountEnetered(TC_005_ConfirmingFormDeatils.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -109,8 +166,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>56</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@5b1669c0</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -120,70 +177,250 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.DisplayBookshelves.slidePriceamount()'><b>slidePriceamount</b><br>Test class: testCases.DisplayBookshelves</td>
-<td></td>
-<td>13</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
-<tr>
-<td title='testCases.DisplayBookshelves.hoverToPrice()'><b>hoverToPrice</b><br>Test class: testCases.DisplayBookshelves</td>
+<td title='testCases.TC_0002_BookshelvesDetails.waitPriceSlider()'><b>waitPriceSlider</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
 <td></td>
 <td>0</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
+<td>testCases.TC_0002_BookshelvesDetails@53fe15ff</td></tr>
 <tr>
-<td title='testCases.DisplayBookshelves.inStock()'><b>inStock</b><br>Test class: testCases.DisplayBookshelves</td>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmDetails()'><b>confirmDetails</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
 <td></td>
 <td>0</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
+<td>testCases.TC_005_ConfirmingFormDeatils@5b1669c0</td></tr>
 <tr>
-<td title='testCases.DisplayBookshelves.closePopUp()'><b>closePopUp</b><br>Test class: testCases.DisplayBookshelves</td>
+<td title='testCases.TC_0002_BookshelvesDetails.sortAccToPrice()'><b>sortAccToPrice</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@53fe15ff</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.hoverSortBy()'><b>hoverSortBy</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@53fe15ff</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmrecipientMobile()'><b>confirmrecipientMobile</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@5b1669c0</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterNameofCustomer()'><b>enterNameofCustomer</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_0003_LivingMenuItems.scrollPage()'><b>scrollPage</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0003_LivingMenuItems@449a4f23</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterNameofRecipient()'><b>enterNameofRecipient</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enteringPriceAmount()'><b>enteringPriceAmount</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.getErrorMessage()'><b>getErrorMessage</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.bookshelveCategory()'><b>bookshelveCategory</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@53fe15ff</td></tr>
+<tr>
+<td title='testCases.TC_0003_LivingMenuItems.hoverToLiving()'><b>hoverToLiving</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0003_LivingMenuItems@449a4f23</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.clickConfirmWithcorrectEmail()'><b>clickConfirmWithcorrectEmail</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_0003_LivingMenuItems.scrollPageUp()'><b>scrollPageUp</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0003_LivingMenuItems@449a4f23</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterAddressofCustomer()'><b>enterAddressofCustomer</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmrecipientEmail()'><b>confirmrecipientEmail</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@5b1669c0</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmcustomerName()'><b>confirmcustomerName</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@5b1669c0</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.inStock()'><b>inStock</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@53fe15ff</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.collectingBookShelvesList()'><b>collectingBookShelvesList</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>45</td>
+<td>testCases.TC_0002_BookshelvesDetails@53fe15ff</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.hoverToPrice()'><b>hoverToPrice</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@53fe15ff</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.hoverCategory()'><b>hoverCategory</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@53fe15ff</td></tr>
+<tr>
+<td title='testCases.TC_0003_LivingMenuItems.submenuSeatingandChairStoreInExcel()'><b>submenuSeatingandChairStoreInExcel</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC_0003_LivingMenuItems@449a4f23</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterMessageIfAny()'><b>enterMessageIfAny</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmcustomerPinCode()'><b>confirmcustomerPinCode</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@5b1669c0</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.scrollDown()'><b>scrollDown</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@53fe15ff</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.loadTheJSONFile()'><b>loadTheJSONFile</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterMobileNumberofCustomer()'><b>enterMobileNumberofCustomer</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterCorrectDeatils()'><b>enterCorrectDeatils</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.clickOnConfirmbtn()'><b>clickOnConfirmbtn</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.scrollDownToGiftsOptions()'><b>scrollDownToGiftsOptions</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_0003_LivingMenuItems.displaySubMenuSeatingandChair()'><b>displaySubMenuSeatingandChair</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
 <td></td>
 <td>2</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
+<td>testCases.TC_0003_LivingMenuItems@449a4f23</td></tr>
 <tr>
-<td title='testCases.DisplayBookshelves.displayingBookShelves()'><b>displayingBookShelves</b><br>Test class: testCases.DisplayBookshelves</td>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmrecipientName()'><b>confirmrecipientName</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
 <td></td>
 <td>0</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
+<td>testCases.TC_005_ConfirmingFormDeatils@5b1669c0</td></tr>
 <tr>
-<td title='testCases.DisplayBookshelves.bookshelveCategory()'><b>bookshelveCategory</b><br>Test class: testCases.DisplayBookshelves</td>
+<td title='testCases.TC_0004_GiftCards.enterPinofCustomerPin()'><b>enterPinofCustomerPin</b><br>Test class: testCases.TC_0004_GiftCards</td>
 <td></td>
 <td>0</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
 <tr>
-<td title='testCases.DisplayBookshelves.waitPriceSlider()'><b>waitPriceSlider</b><br>Test class: testCases.DisplayBookshelves</td>
+<td title='testCases.TC_0003_LivingMenuItems.clickGiftCardsButton()'><b>clickGiftCardsButton</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
+<td></td>
+<td>23</td>
+<td>testCases.TC_0003_LivingMenuItems@449a4f23</td></tr>
+<tr>
+<td title='testCases.TC_0001_SearchBookshelve.sendInSearch()'><b>sendInSearch</b><br>Test class: testCases.TC_0001_SearchBookshelve</td>
+<td></td>
+<td>14</td>
+<td>testCases.TC_0001_SearchBookshelve@1ed4ae0f</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterEmailofCustomer()'><b>enterEmailofCustomer</b><br>Test class: testCases.TC_0004_GiftCards</td>
 <td></td>
 <td>0</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
 <tr>
-<td title='testCases.DisplayBookshelves.hoverCategory()'><b>hoverCategory</b><br>Test class: testCases.DisplayBookshelves</td>
+<td title='testCases.TC_0004_GiftCards.clickOnNextbtn()'><b>clickOnNextbtn</b><br>Test class: testCases.TC_0004_GiftCards</td>
 <td></td>
 <td>0</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
 <tr>
-<td title='testCases.DisplayBookshelves.sendInSearch()'><b>sendInSearch</b><br>Test class: testCases.DisplayBookshelves</td>
+<td title='testCases.TC_0004_GiftCards.enterMobileofRecipient()'><b>enterMobileofRecipient</b><br>Test class: testCases.TC_0004_GiftCards</td>
 <td></td>
 <td>0</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
 <tr>
-<td title='testCases.DisplayBookshelves.clicksearch()'><b>clicksearch</b><br>Test class: testCases.DisplayBookshelves</td>
+<td title='testCases.TC_0004_GiftCards.selectBirthdayOrAnniversary()'><b>selectBirthdayOrAnniversary</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_0001_SearchBookshelve.clicksearch()'><b>clicksearch</b><br>Test class: testCases.TC_0001_SearchBookshelve</td>
 <td></td>
 <td>2</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
+<td>testCases.TC_0001_SearchBookshelve@1ed4ae0f</td></tr>
 <tr>
-<td title='testCases.DisplayBookshelves.sortAccToPrice()'><b>sortAccToPrice</b><br>Test class: testCases.DisplayBookshelves</td>
+<td title='testCases.TC_0002_BookshelvesDetails.displayingBookShelves()'><b>displayingBookShelves</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
 <td></td>
 <td>0</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
+<td>testCases.TC_0002_BookshelvesDetails@53fe15ff</td></tr>
 <tr>
-<td title='testCases.DisplayBookshelves.hoverSortBy()'><b>hoverSortBy</b><br>Test class: testCases.DisplayBookshelves</td>
+<td title='testCases.TC_0002_BookshelvesDetails.closePopUp()'><b>closePopUp</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC_0002_BookshelvesDetails@53fe15ff</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.slidePriceamount()'><b>slidePriceamount</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>8</td>
+<td>testCases.TC_0002_BookshelvesDetails@53fe15ff</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmcustomerMobile()'><b>confirmcustomerMobile</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
 <td></td>
 <td>0</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
+<td>testCases.TC_005_ConfirmingFormDeatils@5b1669c0</td></tr>
 <tr>
-<td title='testCases.DisplayBookshelves.scrollDown()'><b>scrollDown</b><br>Test class: testCases.DisplayBookshelves</td>
+<td title='testCases.TC_0003_LivingMenuItems.waitforSubmenu()'><b>waitforSubmenu</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
 <td></td>
 <td>0</td>
-<td>testCases.DisplayBookshelves@6574a52c</td></tr>
+<td>testCases.TC_0003_LivingMenuItems@449a4f23</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmcustomerEmail()'><b>confirmcustomerEmail</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@5b1669c0</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterEmailofRecipient()'><b>enterEmailofRecipient</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.clearrecipientmail()'><b>clearrecipientmail</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@1530c739</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmcustomerCity()'><b>confirmcustomerCity</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@5b1669c0</td></tr>
 </table><p>
 </body>
 </html>

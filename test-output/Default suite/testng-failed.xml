@@ -3,26 +3,28 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.DisplayBookshelves">
+      <class name="testCases.TC_0004_GiftCards">
         <methods>
-          <include name="hoverToPrice"/>
-          <include name="inStock"/>
-          <include name="sortAccToPrice"/>
+          <include name="enterEmailofCustomer"/>
+          <include name="clickGiftCardsButton"/>
           <include name="tearDown"/>
-          <include name="closePopUp"/>
-          <include name="hoverCategory"/>
-          <include name="clicksearch"/>
-          <include name="collectingBookShelvesList"/>
-          <include name="displayingBookShelves"/>
+          <include name="enteringPriceAmount"/>
+          <include name="enterAddressofCustomer"/>
+          <include name="selectBirthdayOrAnniversary"/>
+          <include name="enterMessageIfAny"/>
+          <include name="clickOnNextbtn"/>
+          <include name="enterEmailofRecipient"/>
+          <include name="enterNameofRecipient"/>
+          <include name="scrollDownToGiftsOptions"/>
+          <include name="enterPinofCustomerPin"/>
+          <include name="enterMobileofRecipient"/>
           <include name="driverSetup"/>
-          <include name="hoverSortBy"/>
-          <include name="sendInSearch"/>
-          <include name="scrollDown"/>
-          <include name="waitPriceSlider"/>
-          <include name="bookshelveCategory"/>
-          <include name="slidePriceamount"/>
+          <include name="enterMobileNumberofCustomer"/>
+          <include name="enterNameofCustomer"/>
+          <include name="clickOnConfirmbtn"/>
+          <include name="scrollPage"/>
         </methods>
-      </class> <!-- testCases.DisplayBookshelves -->
+      </class> <!-- testCases.TC_0004_GiftCards -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -19,11 +19,7 @@ public class UrbanLadderHomePage extends BasePage
 	@FindBy(xpath="//button[@id=\"search_button\"]")
 	WebElement btnSearch;
 	
-	@FindBy(xpath="//li[@class=\"topnav_item livingunit\"]")
-	WebElement optHoverLiving;
-	
-	@FindBy(xpath="//a[contains(text(),' Gift Cards ')]")
-	WebElement btnGiftCards;
+
 	
 	public void inputBox()
 	{

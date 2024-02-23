@@ -1,9 +1,11 @@
 package testCases;
 
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import pageObjects.BookshelevesHomePage;
+import pageObjects.GiftsCardHomePage;
+import pageObjects.LivingSubMenuPage;
 import pageObjects.UrbanLadderHomePage;
 import testBase.BaseClass;
 import utilities.ExcelWrite;
@@ -13,9 +15,14 @@ public class DisplayBookshelves extends BaseClass {
 
     UrbanLadderHomePage uhp;
     BookshelevesHomePage bhp;
+    LivingSubMenuPage lmp;
+    GiftsCardHomePage gcp;
+    
+    
 	public static Actions action;
 	public static String[] bookShelves;
 	public static String[] prices;
+	public static String[] submenuitems;
 	
 	@Test(priority = 1)
 	public void sendInSearch()
@@ -97,7 +104,7 @@ public class DisplayBookshelves extends BaseClass {
 			prices[i] = prices[i].replaceAll("[^0-9]", "");
 			
 		}
-		ExcelWrite.below15000BookShelves(bookShelves , prices , 3);
+		ExcelWrite.setDataExcel(bookShelves , prices , 3);
 	}
 	
 	@Test(priority = 14)
@@ -109,6 +116,194 @@ public class DisplayBookshelves extends BaseClass {
 			
 		}
 		
+	}
+	
+	@Test(priority = 15)
+	public void scrollUpToLogo()
+	{
+		lmp.scrollUp();
+	}
+	
+	
+	@Test(priority = 16)
+	public void hoverToLiving()
+	{
+		lmp.hoverLiving();
+	}
+	@Test(priority = 17)
+	public void waitforSubmenu()
+	{
+		lmp.waitForSubmenuToAppear();
+	}
+	@Test(priority = 18)
+	public void submenuSeatingandChairStoreInExcel()
+	{
+		lmp=new LivingSubMenuPage(driver);
+		
+		submenuitems= new String[lmp.listOFseatingAndChair().size()];
+		
+		for(int i=0;i<lmp.listOFseatingAndChair().size();i++)
+		{
+			submenuitems[i]= lmp.listOFseatingAndChair().get(i).getText();
+		}
+		ExcelWrite.setDataExcel(submenuitems, lmp.listOFseatingAndChair().size());
+	}
+	@Test(priority = 19)
+	public void displaySubMenuSeatingandChair()
+	{
+		for(int i=0;i<lmp.listOFseatingAndChair().size();i++)
+		{
+			System.out.println(submenuitems[i]);
+		}
+	}
+	
+	@Test(priority = 20)
+	public void scrollPage() throws InterruptedException
+	{
+		lmp.scrollpage();
+	}
+	
+	@Test(priority = 21)
+	public void clickGiftCardsButton()
+	{
+		
+		lmp.clickGiftCards();
+	}
+	
+	@Test(priority = 22)
+	public void loadTheJSONFile()
+	{
+		gcp =new GiftsCardHomePage(driver);
+		gcp.testCaseReadJSON();
+	}
+
+	
+	@Test(priority = 23)
+	public void scrollDownToGiftsOptions()
+	{
+		
+		gcp.scrollDownToGifts();
+	}
+	
+	@Test(priority = 24)
+	public void selectBirthdayOrAnniversary() 
+	{
+		gcp.clickOnBirthdayOrAnniversary();
+	}
+	
+	@Test(priority = 25)
+	public  void enteringPriceAmount() 
+	{
+		
+		gcp.enteringAmount();
+		
+	}
+	
+	@Test(priority = 26)
+	public  void clickOnNextbtn() 
+	{
+		
+		gcp.clickOnNext();
+		
+	}
+	
+	@Test(priority = 27)
+	public  void enterNameofRecipient() 
+	{
+		
+		gcp.enterRecipientName();
+		
+	}
+	
+	@Test(priority = 28)
+	public void enterEmailofRecipient() 
+	{
+		
+		gcp.enterRecipientEmail();
+		
+	}
+	@Test(priority = 29)
+	public void enterMobileofRecipient() 
+	{
+		
+		gcp.enterRecipientMobile();
+		
+	}
+	
+	
+	@Test(priority = 30)
+	public void enterNameofCustomer() 
+	{
+		
+		gcp.enterCustomerName();
+		
+	}
+	
+	@Test(priority = 31)
+	public void enterEmailofCustomer() 
+	{
+		
+		gcp.enterCustomerEmail() ;
+	}
+	
+	@Test(priority = 32)
+	public void enterMobileNumberofCustomer() 
+	{
+		
+		gcp.enterCustomerMobileNumber();
+		
+	}
+	@Test(priority = 33)
+	public void enterAddressofCustomer() 
+	{
+		
+		gcp.enterCustomerAddress();
+		
+	}
+	
+	@Test(priority = 34)
+	public void enterPinofCustomerPin()
+	{
+		gcp.enterCustomerPin();
+	}
+	
+	@Test(priority = 35)
+	public void enterMessageIfAny() 
+	{
+		
+		gcp.enterMessage();
+		
+	}
+	
+	@Test(priority = 36)
+	public void clickOnConfirmbtn() throws InterruptedException 
+	{
+	
+		gcp.clickOnConfirm();
+		
+	}
+	@Test(priority = 37)
+	public void getErrorMessage()
+	{
+		gcp.displayErrorMessage();
+	}
+	
+	@Test(priority = 38)
+	public void clearrecipientmail()
+	{
+		gcp.clearRecipientEmailBox();
+	}
+	
+	@Test(priority = 39)
+	public void enterCorrectDeatils()
+	{
+		gcp.enterCorrectrecipientEmail();
+	}
+	
+	@Test(priority = 40)
+	public void clickConfirmWithcorrectEmail() throws InterruptedException
+	{
+		gcp.clickConfirmafterCorrectEmail();
 	}
 	
 }

@@ -22,7 +22,6 @@ public class BookshelevesHomePage extends BasePage{
 	WebElement popupSignUp;
 	
 	@FindBy(xpath="//h2[contains(text(),\"Search results for\")]")
-	
 	WebElement txtScrollTill;
 	
 	@FindBy(xpath="//li[@data-group='category' and @class='item']")
@@ -33,7 +32,6 @@ public class BookshelevesHomePage extends BasePage{
 	
 	@FindBy(xpath="//li[@data-group='price' and @class='item']")//price
 	WebElement optHoverPrice;
-	
 	
 	//@FindBy(css="div.connect")
 	@FindBy(xpath="//div[@class='noUi-handle noUi-handle-upper']")//max slider point
@@ -107,9 +105,10 @@ public class BookshelevesHomePage extends BasePage{
 	public void slidePrice() throws InterruptedException
 	{
 		System.out.println("The Current position of the Max slider is"+sliderPrice.getLocation());
-		Thread.sleep(9000);
-		action.moveToElement(sliderPrice).dragAndDropBy(sliderPrice, -202, 0).perform();
 		Thread.sleep(4000);
+		action.moveToElement(sliderPrice).dragAndDropBy(sliderPrice, -212, 0).perform();
+		Thread.sleep(4000);
+		System.out.println("The Current position of the Max slider is"+sliderPrice.getLocation());
 	}
 	
 	
