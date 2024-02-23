@@ -1,0 +1,330 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>50/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 23 11:37:49 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>104 seconds (104063 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.hoverSortBy()'><b>hoverSortBy</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@1165b38</td></tr>
+<tr>
+<td title='testCases.TC_0003_LivingMenuItems.scrollPageUp()'><b>scrollPageUp</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0003_LivingMenuItems@4c12331b</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.slidePriceamount()'><b>slidePriceamount</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>8</td>
+<td>testCases.TC_0002_BookshelvesDetails@1165b38</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enteringPriceAmount()'><b>enteringPriceAmount</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmcustomerPinCode()'><b>confirmcustomerPinCode</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@3b69e7d1</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.waitPriceSlider()'><b>waitPriceSlider</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@1165b38</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterPinofCustomerPin()'><b>enterPinofCustomerPin</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.hoverToPrice()'><b>hoverToPrice</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@1165b38</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.loadTheJSONFile()'><b>loadTheJSONFile</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.getErrorMessage()'><b>getErrorMessage</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmrecipientEmail()'><b>confirmrecipientEmail</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@3b69e7d1</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmcustomerEmail()'><b>confirmcustomerEmail</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@3b69e7d1</td></tr>
+<tr>
+<td title='testCases.TC_0003_LivingMenuItems.clickGiftCardsButton()'><b>clickGiftCardsButton</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC_0003_LivingMenuItems@4c12331b</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.inStock()'><b>inStock</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@1165b38</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterEmailofRecipient()'><b>enterEmailofRecipient</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.collectingBookShelvesList()'><b>collectingBookShelvesList</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>38</td>
+<td>testCases.TC_0002_BookshelvesDetails@1165b38</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterAddressofCustomer()'><b>enterAddressofCustomer</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmcustomerCity()'><b>confirmcustomerCity</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@3b69e7d1</td></tr>
+<tr>
+<td title='testCases.TC_0001_SearchBookshelve.sendInSearch()'><b>sendInSearch</b><br>Test class: testCases.TC_0001_SearchBookshelve</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0001_SearchBookshelve@702657cc</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterMobileofRecipient()'><b>enterMobileofRecipient</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterMessageIfAny()'><b>enterMessageIfAny</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmrecipientMobile()'><b>confirmrecipientMobile</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@3b69e7d1</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.clickOnNextbtn()'><b>clickOnNextbtn</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.sortAccToPrice()'><b>sortAccToPrice</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@1165b38</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.clickConfirmWithcorrectEmail()'><b>clickConfirmWithcorrectEmail</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmDetails()'><b>confirmDetails</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@3b69e7d1</td></tr>
+<tr>
+<td title='testCases.TC_0003_LivingMenuItems.scrollPage()'><b>scrollPage</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0003_LivingMenuItems@4c12331b</td></tr>
+<tr>
+<td title='testCases.TC_0003_LivingMenuItems.submenuSeatingandChairStoreInExcel()'><b>submenuSeatingandChairStoreInExcel</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
+<td></td>
+<td>4</td>
+<td>testCases.TC_0003_LivingMenuItems@4c12331b</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.selectBirthdayOrAnniversary()'><b>selectBirthdayOrAnniversary</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmrecipientName()'><b>confirmrecipientName</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@3b69e7d1</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.clickOnConfirmbtn()'><b>clickOnConfirmbtn</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.scrollDown()'><b>scrollDown</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@1165b38</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.displayingBookShelves()'><b>displayingBookShelves</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@1165b38</td></tr>
+<tr>
+<td title='testCases.TC_0003_LivingMenuItems.displaySubMenuSeatingandChair()'><b>displaySubMenuSeatingandChair</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC_0003_LivingMenuItems@4c12331b</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.hoverCategory()'><b>hoverCategory</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@1165b38</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterMobileNumberofCustomer()'><b>enterMobileNumberofCustomer</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterNameofRecipient()'><b>enterNameofRecipient</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.scrollDownToGiftsOptions()'><b>scrollDownToGiftsOptions</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_0003_LivingMenuItems.waitforSubmenu()'><b>waitforSubmenu</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0003_LivingMenuItems@4c12331b</td></tr>
+<tr>
+<td title='testCases.TC_0003_LivingMenuItems.hoverToLiving()'><b>hoverToLiving</b><br>Test class: testCases.TC_0003_LivingMenuItems</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0003_LivingMenuItems@4c12331b</td></tr>
+<tr>
+<td title='testCases.TC_0001_SearchBookshelve.clicksearch()'><b>clicksearch</b><br>Test class: testCases.TC_0001_SearchBookshelve</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC_0001_SearchBookshelve@702657cc</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.bookshelveCategory()'><b>bookshelveCategory</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0002_BookshelvesDetails@1165b38</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterEmailofCustomer()'><b>enterEmailofCustomer</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterCorrectDeatils()'><b>enterCorrectDeatils</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.enterNameofCustomer()'><b>enterNameofCustomer</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmcustomerName()'><b>confirmcustomerName</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@3b69e7d1</td></tr>
+<tr>
+<td title='testCases.TC_0002_BookshelvesDetails.closePopUp()'><b>closePopUp</b><br>Test class: testCases.TC_0002_BookshelvesDetails</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC_0002_BookshelvesDetails@1165b38</td></tr>
+<tr>
+<td title='testCases.TC_0004_GiftCards.clearrecipientmail()'><b>clearrecipientmail</b><br>Test class: testCases.TC_0004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_0004_GiftCards@7586beff</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmcustomerMobile()'><b>confirmcustomerMobile</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@3b69e7d1</td></tr>
+<tr>
+<td title='testCases.TC_005_ConfirmingFormDeatils.confirmamountEnetered()'><b>confirmamountEnetered</b><br>Test class: testCases.TC_005_ConfirmingFormDeatils</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_005_ConfirmingFormDeatils@3b69e7d1</td></tr>
+</table><p>
+</body>
+</html>

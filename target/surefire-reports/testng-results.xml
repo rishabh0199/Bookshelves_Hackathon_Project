@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="50" passed="50" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-23T11:37:49 IST" name="Suite" finished-at="2024-02-23T11:39:33 IST" duration-ms="104063">
+    <groups>
+    </groups>
+    <test started-at="2024-02-23T11:37:49 IST" name="Test" finished-at="2024-02-23T11:39:33 IST" duration-ms="104063">
+      <class name="testCases.TC_0004_GiftCards">
+        <test-method signature="loadTheJSONFile()[pri:22, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:13 IST" name="loadTheJSONFile" finished-at="2024-02-23T11:39:13 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTheJSONFile -->
+        <test-method signature="scrollDownToGiftsOptions()[pri:23, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:14 IST" name="scrollDownToGiftsOptions" finished-at="2024-02-23T11:39:14 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollDownToGiftsOptions -->
+        <test-method signature="selectBirthdayOrAnniversary()[pri:24, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:14 IST" name="selectBirthdayOrAnniversary" finished-at="2024-02-23T11:39:14 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBirthdayOrAnniversary -->
+        <test-method signature="enteringPriceAmount()[pri:25, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:15 IST" name="enteringPriceAmount" finished-at="2024-02-23T11:39:15 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringPriceAmount -->
+        <test-method signature="clickOnNextbtn()[pri:26, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:15 IST" name="clickOnNextbtn" finished-at="2024-02-23T11:39:15 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnNextbtn -->
+        <test-method signature="enterNameofRecipient()[pri:27, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:16 IST" name="enterNameofRecipient" finished-at="2024-02-23T11:39:16 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNameofRecipient -->
+        <test-method signature="enterEmailofRecipient()[pri:28, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:16 IST" name="enterEmailofRecipient" finished-at="2024-02-23T11:39:16 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmailofRecipient -->
+        <test-method signature="enterMobileofRecipient()[pri:29, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:16 IST" name="enterMobileofRecipient" finished-at="2024-02-23T11:39:16 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterMobileofRecipient -->
+        <test-method signature="enterNameofCustomer()[pri:30, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:16 IST" name="enterNameofCustomer" finished-at="2024-02-23T11:39:17 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNameofCustomer -->
+        <test-method signature="enterEmailofCustomer()[pri:31, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:17 IST" name="enterEmailofCustomer" finished-at="2024-02-23T11:39:17 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmailofCustomer -->
+        <test-method signature="enterMobileNumberofCustomer()[pri:32, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:17 IST" name="enterMobileNumberofCustomer" finished-at="2024-02-23T11:39:17 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterMobileNumberofCustomer -->
+        <test-method signature="enterAddressofCustomer()[pri:33, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:17 IST" name="enterAddressofCustomer" finished-at="2024-02-23T11:39:17 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAddressofCustomer -->
+        <test-method signature="enterPinofCustomerPin()[pri:34, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:18 IST" name="enterPinofCustomerPin" finished-at="2024-02-23T11:39:18 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPinofCustomerPin -->
+        <test-method signature="enterMessageIfAny()[pri:35, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:18 IST" name="enterMessageIfAny" finished-at="2024-02-23T11:39:18 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterMessageIfAny -->
+        <test-method signature="clickOnConfirmbtn()[pri:36, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:18 IST" name="clickOnConfirmbtn" finished-at="2024-02-23T11:39:21 IST" duration-ms="3157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnConfirmbtn -->
+        <test-method signature="getErrorMessage()[pri:37, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:22 IST" name="getErrorMessage" finished-at="2024-02-23T11:39:22 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getErrorMessage -->
+        <test-method signature="clearrecipientmail()[pri:38, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:22 IST" name="clearrecipientmail" finished-at="2024-02-23T11:39:22 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearrecipientmail -->
+        <test-method signature="enterCorrectDeatils()[pri:39, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:22 IST" name="enterCorrectDeatils" finished-at="2024-02-23T11:39:23 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCorrectDeatils -->
+        <test-method signature="clickConfirmWithcorrectEmail()[pri:40, instance:testCases.TC_0004_GiftCards@7586beff]" started-at="2024-02-23T11:39:23 IST" name="clickConfirmWithcorrectEmail" finished-at="2024-02-23T11:39:26 IST" duration-ms="3144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickConfirmWithcorrectEmail -->
+      </class> <!-- testCases.TC_0004_GiftCards -->
+      <class name="testCases.TC_0001_SearchBookshelve">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:testCases.TC_0001_SearchBookshelve@702657cc]" started-at="2024-02-23T11:37:49 IST" name="driverSetup" finished-at="2024-02-23T11:37:59 IST" duration-ms="10493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="sendInSearch()[pri:1, instance:testCases.TC_0001_SearchBookshelve@702657cc]" started-at="2024-02-23T11:37:59 IST" name="sendInSearch" finished-at="2024-02-23T11:38:00 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendInSearch -->
+        <test-method signature="clicksearch()[pri:2, instance:testCases.TC_0001_SearchBookshelve@702657cc]" started-at="2024-02-23T11:38:01 IST" name="clicksearch" finished-at="2024-02-23T11:38:03 IST" duration-ms="2419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0001_SearchBookshelve@702657cc]" started-at="2024-02-23T11:39:31 IST" name="tearDown" finished-at="2024-02-23T11:39:33 IST" duration-ms="1209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0001_SearchBookshelve -->
+      <class name="testCases.TC_0003_LivingMenuItems">
+        <test-method signature="scrollPageUp()[pri:15, instance:testCases.TC_0003_LivingMenuItems@4c12331b]" started-at="2024-02-23T11:38:59 IST" name="scrollPageUp" finished-at="2024-02-23T11:38:59 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollPageUp -->
+        <test-method signature="hoverToLiving()[pri:16, instance:testCases.TC_0003_LivingMenuItems@4c12331b]" started-at="2024-02-23T11:38:59 IST" name="hoverToLiving" finished-at="2024-02-23T11:38:59 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverToLiving -->
+        <test-method signature="waitforSubmenu()[pri:17, instance:testCases.TC_0003_LivingMenuItems@4c12331b]" started-at="2024-02-23T11:39:00 IST" name="waitforSubmenu" finished-at="2024-02-23T11:39:00 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitforSubmenu -->
+        <test-method signature="submenuSeatingandChairStoreInExcel()[pri:18, instance:testCases.TC_0003_LivingMenuItems@4c12331b]" started-at="2024-02-23T11:39:00 IST" name="submenuSeatingandChairStoreInExcel" finished-at="2024-02-23T11:39:04 IST" duration-ms="4055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submenuSeatingandChairStoreInExcel -->
+        <test-method signature="displaySubMenuSeatingandChair()[pri:19, instance:testCases.TC_0003_LivingMenuItems@4c12331b]" started-at="2024-02-23T11:39:04 IST" name="displaySubMenuSeatingandChair" finished-at="2024-02-23T11:39:06 IST" duration-ms="2157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaySubMenuSeatingandChair -->
+        <test-method signature="scrollPage()[pri:20, instance:testCases.TC_0003_LivingMenuItems@4c12331b]" started-at="2024-02-23T11:39:07 IST" name="scrollPage" finished-at="2024-02-23T11:39:07 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollPage -->
+        <test-method signature="clickGiftCardsButton()[pri:21, instance:testCases.TC_0003_LivingMenuItems@4c12331b]" started-at="2024-02-23T11:39:07 IST" name="clickGiftCardsButton" finished-at="2024-02-23T11:39:13 IST" duration-ms="5930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGiftCardsButton -->
+      </class> <!-- testCases.TC_0003_LivingMenuItems -->
+      <class name="testCases.TC_005_ConfirmingFormDeatils">
+        <test-method signature="confirmDetails()[pri:41, instance:testCases.TC_005_ConfirmingFormDeatils@3b69e7d1]" started-at="2024-02-23T11:39:26 IST" name="confirmDetails" finished-at="2024-02-23T11:39:26 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmDetails -->
+        <test-method signature="confirmamountEnetered()[pri:42, instance:testCases.TC_005_ConfirmingFormDeatils@3b69e7d1]" started-at="2024-02-23T11:39:27 IST" name="confirmamountEnetered" finished-at="2024-02-23T11:39:27 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmamountEnetered -->
+        <test-method signature="confirmrecipientName()[pri:43, instance:testCases.TC_005_ConfirmingFormDeatils@3b69e7d1]" started-at="2024-02-23T11:39:27 IST" name="confirmrecipientName" finished-at="2024-02-23T11:39:27 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmrecipientName -->
+        <test-method signature="confirmrecipientEmail()[pri:44, instance:testCases.TC_005_ConfirmingFormDeatils@3b69e7d1]" started-at="2024-02-23T11:39:28 IST" name="confirmrecipientEmail" finished-at="2024-02-23T11:39:28 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmrecipientEmail -->
+        <test-method signature="confirmrecipientMobile()[pri:45, instance:testCases.TC_005_ConfirmingFormDeatils@3b69e7d1]" started-at="2024-02-23T11:39:28 IST" name="confirmrecipientMobile" finished-at="2024-02-23T11:39:28 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmrecipientMobile -->
+        <test-method signature="confirmcustomerName()[pri:46, instance:testCases.TC_005_ConfirmingFormDeatils@3b69e7d1]" started-at="2024-02-23T11:39:29 IST" name="confirmcustomerName" finished-at="2024-02-23T11:39:29 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmcustomerName -->
+        <test-method signature="confirmcustomerEmail()[pri:47, instance:testCases.TC_005_ConfirmingFormDeatils@3b69e7d1]" started-at="2024-02-23T11:39:29 IST" name="confirmcustomerEmail" finished-at="2024-02-23T11:39:30 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmcustomerEmail -->
+        <test-method signature="confirmcustomerMobile()[pri:48, instance:testCases.TC_005_ConfirmingFormDeatils@3b69e7d1]" started-at="2024-02-23T11:39:30 IST" name="confirmcustomerMobile" finished-at="2024-02-23T11:39:30 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmcustomerMobile -->
+        <test-method signature="confirmcustomerCity()[pri:49, instance:testCases.TC_005_ConfirmingFormDeatils@3b69e7d1]" started-at="2024-02-23T11:39:30 IST" name="confirmcustomerCity" finished-at="2024-02-23T11:39:31 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmcustomerCity -->
+        <test-method signature="confirmcustomerPinCode()[pri:50, instance:testCases.TC_005_ConfirmingFormDeatils@3b69e7d1]" started-at="2024-02-23T11:39:31 IST" name="confirmcustomerPinCode" finished-at="2024-02-23T11:39:31 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmcustomerPinCode -->
+      </class> <!-- testCases.TC_005_ConfirmingFormDeatils -->
+      <class name="testCases.TC_0002_BookshelvesDetails">
+        <test-method signature="closePopUp()[pri:3, instance:testCases.TC_0002_BookshelvesDetails@1165b38]" started-at="2024-02-23T11:38:03 IST" name="closePopUp" finished-at="2024-02-23T11:38:06 IST" duration-ms="2430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopUp -->
+        <test-method signature="scrollDown()[pri:4, instance:testCases.TC_0002_BookshelvesDetails@1165b38]" started-at="2024-02-23T11:38:06 IST" name="scrollDown" finished-at="2024-02-23T11:38:06 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollDown -->
+        <test-method signature="hoverCategory()[pri:5, instance:testCases.TC_0002_BookshelvesDetails@1165b38]" started-at="2024-02-23T11:38:07 IST" name="hoverCategory" finished-at="2024-02-23T11:38:07 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverCategory -->
+        <test-method signature="bookshelveCategory()[pri:6, instance:testCases.TC_0002_BookshelvesDetails@1165b38]" started-at="2024-02-23T11:38:07 IST" name="bookshelveCategory" finished-at="2024-02-23T11:38:07 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookshelveCategory -->
+        <test-method signature="hoverToPrice()[pri:7, instance:testCases.TC_0002_BookshelvesDetails@1165b38]" started-at="2024-02-23T11:38:07 IST" name="hoverToPrice" finished-at="2024-02-23T11:38:08 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverToPrice -->
+        <test-method signature="waitPriceSlider()[pri:8, instance:testCases.TC_0002_BookshelvesDetails@1165b38]" started-at="2024-02-23T11:38:08 IST" name="waitPriceSlider" finished-at="2024-02-23T11:38:08 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitPriceSlider -->
+        <test-method signature="slidePriceamount()[pri:9, instance:testCases.TC_0002_BookshelvesDetails@1165b38]" started-at="2024-02-23T11:38:09 IST" name="slidePriceamount" finished-at="2024-02-23T11:38:18 IST" duration-ms="8797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slidePriceamount -->
+        <test-method signature="hoverSortBy()[pri:10, instance:testCases.TC_0002_BookshelvesDetails@1165b38]" started-at="2024-02-23T11:38:18 IST" name="hoverSortBy" finished-at="2024-02-23T11:38:18 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverSortBy -->
+        <test-method signature="sortAccToPrice()[pri:11, instance:testCases.TC_0002_BookshelvesDetails@1165b38]" started-at="2024-02-23T11:38:19 IST" name="sortAccToPrice" finished-at="2024-02-23T11:38:19 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortAccToPrice -->
+        <test-method signature="inStock()[pri:12, instance:testCases.TC_0002_BookshelvesDetails@1165b38]" started-at="2024-02-23T11:38:19 IST" name="inStock" finished-at="2024-02-23T11:38:19 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inStock -->
+        <test-method signature="collectingBookShelvesList()[pri:13, instance:testCases.TC_0002_BookshelvesDetails@1165b38]" started-at="2024-02-23T11:38:19 IST" name="collectingBookShelvesList" finished-at="2024-02-23T11:38:58 IST" duration-ms="38760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectingBookShelvesList -->
+        <test-method signature="displayingBookShelves()[pri:14, instance:testCases.TC_0002_BookshelvesDetails@1165b38]" started-at="2024-02-23T11:38:58 IST" name="displayingBookShelves" finished-at="2024-02-23T11:38:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayingBookShelves -->
+      </class> <!-- testCases.TC_0002_BookshelvesDetails -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

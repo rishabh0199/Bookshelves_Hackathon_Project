@@ -19,15 +19,14 @@ public class TC_005_ConfirmingFormDeatils extends BaseClass{
 	{
 		fdp=new SubmittedFormDetailsPage(driver);
 		WebElement elem = fdp.confirmationDetailsDisplay();
-		System.out.println(elem.getText());
 		boolean b= elem.isDisplayed();//if confirm page heading diplayed after submission success
 		if(b)
 		{
-			System.out.println("Successfully submitted Details and now on verify Details Page");
+			System.out.println("Successfully submitted Details and now on verify Details Page:");
 		}
 		else
 		{
-			System.out.println("Failed to submit Details and now on verify Details Page");
+			System.out.println("Failed to submit Details and now on verify Details Page:");
 		}
 	}
 	@Test(priority = 42)
